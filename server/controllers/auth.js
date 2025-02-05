@@ -39,7 +39,7 @@ export const register=async(req,res)=>{
 }
 
 //logging in
-export const login=async(res,req)=>{
+export const login=async(req,res)=>{
     try {
         const {email,password}=req.body
 
